@@ -1,14 +1,14 @@
 # BCS601-USN089
 
 ## Project Title
-Basic Operations Web Program using Python
+Basic Operations Web Application using Python and Flask
 
 ---
 
 ## Introduction
-This project is a simple Python-based application developed as part of cloud-based learning.  
+This project is a simple Python-based web application developed as part of cloud-based learning.  
 It performs basic operations like HCF, LCM calculation, string reversal, and factorial generation.  
-The program is designed in a simple and clear way so that each step can be understood easily.
+The application is implemented using Flask and deployed on a cloud platform.
 
 ---
 
@@ -17,14 +17,15 @@ The program is designed in a simple and clear way so that each step can be under
 - Calculates LCM using HCF  
 - Reverses a given string  
 - Displays factorial values from 4 to 8  
-- Shows intermediate steps for HCF calculation  
+- Web-based output using Flask  
 
 ---
 
 ## Technologies Used
 - Python  
-- Basic functions and loops  
-- GitHub for code hosting  
+- Flask  
+- GitHub  
+- Render (Cloud Deployment)
 
 ---
 
@@ -33,22 +34,14 @@ Refer to `app.py` file in this repository.
 
 ---
 
-## Sample Execution
-
-Enter first number: 18  
-Enter second number: 12  
-
-HCF Steps:  
-18 % 12 = 6  
-12 % 6 = 0  
+## Sample Output
 
 HCF: 6  
 LCM: 36  
 
-Enter a string: Fun with Programming  
 Reversed: gnimmargorP htiw nuF  
 
-Factorials from 4 to 8:  
+Factorials:  
 4 : 24  
 5 : 120  
 6 : 720  
@@ -59,25 +52,26 @@ Factorials from 4 to 8:
 
 ## Steps to Run the Project
 1. Install Python  
-2. Save the file as `app.py`  
-3. Open terminal in the file location  
+2. Install Flask using:  
+   pip install flask  
+3. Save the file as `app.py`  
 4. Run the command:  
    python app.py  
-5. Enter inputs and view output  
+5. Open browser and visit:  
+   http://127.0.0.1:10000  
 
 ---
 
 ## Deployment
-The project will be deployed on a cloud platform and the link will be updated below.
 
 Deployment URL:  
-(To be added)
+https://bcs601-usn089.onrender.com
 
 ---
 
 ## Summary
-This project helped in understanding basic programming concepts and how to implement them in Python.  
-It also gave knowledge about version control using GitHub and deployment on cloud platforms.
+This project helped in understanding basic programming concepts and their implementation using Python.  
+It also provided practical knowledge of version control using GitHub and deployment using cloud platforms.
 
 ---
 
