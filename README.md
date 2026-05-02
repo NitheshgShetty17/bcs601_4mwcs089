@@ -57,8 +57,6 @@ Factorials:
 3. Save the file as `app.py`  
 4. Run the command:  
    python app.py  
-5. Open browser and visit:  
-   http://127.0.0.1:10000  
 
 ---
 
