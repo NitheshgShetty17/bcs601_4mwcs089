@@ -16,24 +16,22 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 
-print("---- MINI PROJECT ----")
-
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+a = 18
+b = 12
 
 hcf_val, steps = find_hcf(a, b)
 lcm_val = find_lcm(a, b, hcf_val)
 
-print("\nHCF Steps:")
+print("HCF Steps:")
 for s in steps:
     print(s)
 
 print("HCF:", hcf_val)
 print("LCM:", lcm_val)
 
-text = input("\nEnter a string: ")
+text = "Fun with Programming"
 print("Reversed:", reverse_text(text))
 
-print("\nFactorials from 4 to 8:")
+print("Factorials from 4 to 8:")
 for i in range(4, 9):
     print(i, ":", factorial(i))
