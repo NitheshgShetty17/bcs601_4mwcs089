@@ -1,22 +1,21 @@
 # BCS601-USN089
 
 ## Project Title
-Basic Operations Web Application using Python and Flask
+Basic Operations Web Program using Python
 
 ---
 
 ## Introduction
-This project is a simple Python-based web application developed as part of cloud-based learning.  
-It performs basic operations like HCF, LCM calculation, string reversal, and factorial generation.  
-The application is implemented using Flask and deployed on a cloud platform.
+This project is a simple Python-based web application deployed on a cloud platform.  
+It performs operations like HCF, LCM, string reversal, and factorial generation using a browser interface.
 
 ---
 
 ## Features
-- Calculates HCF using Euclidean method  
-- Calculates LCM using HCF  
-- Reverses a given string  
-- Displays factorial values from 4 to 8  
+- HCF calculation using Euclidean method  
+- LCM calculation  
+- String reversal  
+- Factorial generation (4 to 8)  
 - Web-based output using Flask  
 
 ---
@@ -25,57 +24,41 @@ The application is implemented using Flask and deployed on a cloud platform.
 - Python  
 - Flask  
 - GitHub  
-- Render (Cloud Deployment)
+- Render (Cloud Deployment)  
 
 ---
 
 ## Program Code
-Refer to `app.py` file in this repository.
+Refer to app.py file in this repository.
 
 ---
 
-## Sample Output
-
-HCF: 6  
-LCM: 36  
-
-Reversed: gnimmargorP htiw nuF  
-
-Factorials:  
-4 : 24  
-5 : 120  
-6 : 720  
-7 : 5040  
-8 : 40320  
-
----
-
-## Steps to Run the Project
+## Steps to Run (Local)
 1. Install Python  
-2. Install Flask using:  
+2. Install Flask using:
    pip install flask  
-3. Save the file as `app.py`  
-4. Run the command:  
+3. Run:
    python app.py  
+4. Open browser:
+   http://127.0.0.1:10000  
 
 ---
 
 ## Deployment
-
 Deployment URL:  
-https://bcs601-usn089.onrender.com
+https://bcs601-usn089.onrender.com  
 
 ---
 
 ## Summary
-This project helped in understanding basic programming concepts and their implementation using Python.  
-It also provided practical knowledge of version control using GitHub and deployment using cloud platforms.
+This project demonstrates basic programming concepts and their implementation using Python.  
+It also shows how to deploy a simple application using cloud platforms.
 
 ---
 
 ## Annexure
 GitHub Repository Link:  
-https://github.com/NitheshShetty17/bcs601_4mwcs089  
+https://github.com/NitheshgShetty17/bcs601_4mwcs089  
 
 ---
 
